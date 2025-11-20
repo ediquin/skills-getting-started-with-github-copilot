@@ -48,7 +48,7 @@ def reset_activities():
     activities.clear()
     activities.update(original_activities)
 
-
+#comment to to ther commit
 class TestGetActivities:
     """Tests for GET /activities endpoint"""
     
