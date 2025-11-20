@@ -172,3 +172,29 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Participants List */
+#participants-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+#participants-list li {
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-icon {
+  color: red;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 18px;
+  padding: 5px;
+  transition: transform 0.2s;
+}
+
+.delete-icon:hover {
+  transform: scale(1.2);
+}
